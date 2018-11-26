@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #2d3c49;
+}
+
+body {
+    background-color: #7d97ad;
+}
+
+#header a {
+    color: #7d97ad;
+}
+
+#header a:hover {
+    color: #ffffff;
+}
+
+#header h3 {
+    color: #ffffff;
+}
