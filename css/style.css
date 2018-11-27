@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Abel-Regular;
+    src: url('../fonts/Abel-Regular.ttf');
+}
+
+@font-face {
+    font-family: AdventPro-Thin;
+    src: url('../fonts/AdventPro-SemiBold.ttf');
+}
+
+
 /* Navbar Color */
 
 .navbar {
@@ -36,10 +47,20 @@ body {
     min-height: 600px;
 }
 
+
+/* Box Shadow For About Me Image */
+
 #about-me img {
     -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.54);
     -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.54);
     box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.54);
+}
+
+
+/* Changing About Me h3 font */
+
+#about-me h3 {
+    font-family: Abel-Regular;
 }
 
 
@@ -88,4 +109,47 @@ body {
     #bg-img {
         display: none;
     }
+}
+
+
+/* Setting Slider Box Shadow */
+
+#slider {
+    margin-top: 10px;
+    -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.54);
+    box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.54);
+}
+
+
+/* Changing h1 Properties */
+
+body h1 {
+    color: #2d3c49;
+    font-family: Abel-Regular;
+    font-size: 50px;
+}
+
+
+/* Updating Slider Style */
+
+#slider a {
+    background-color: #2d3c49;
+    opacity: 0.8;
+    height: 15%;
+    width: 10%;
+    margin-top: 30%;
+}
+
+#slider a:hover {
+    opacity: 1;
+}
+
+.slide-label {
+    background-color: #2d3c49;
+    opacity: 0.8;
+}
+
+body h5 {
+    font-family: AdventPro-Thin;
 }
