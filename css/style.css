@@ -1,10 +1,18 @@
+/* Navbar Color */
+
 .navbar {
     background-color: #2d3c49;
 }
 
+
+/* Body Background Color */
+
 body {
-    background-color: #7d97ad;
+    background-color: #c1cbcf;
 }
+
+
+/* Changing Navbar's item's Colors */
 
 #header a {
     color: #7d97ad;
@@ -18,9 +26,66 @@ body {
     color: #ffffff;
 }
 
+
+/* Background Image */
+
 #bg-img {
     background: url('../img/bg-img2.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 600px;
+}
+
+#about-me img {
+    -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.54);
+    box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.54);
+}
+
+
+/* Ajusting About Me Card to be responsive with different devices */
+
+@media screen and (max-width:450px) {
+    #about-me td {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #about-me td {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:385px) {
+    #about-me td {
+        font-size: 10px;
+    }
+    #about-me h3 {
+        font-size: 18px;
+    }
+    #about-me img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #about-me img {
+        display: none;
+    }
+}
+
+#about-me {
+    margin-top: -450px;
+}
+
+@media screen and (max-width:767px) {
+    #about-me {
+        margin-top: 100px;
+    }
+    #bg-img {
+        display: none;
+    }
 }
