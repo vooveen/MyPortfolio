@@ -63,6 +63,10 @@ body {
     font-family: Abel-Regular;
 }
 
+#about-me table {
+    align-content: center;
+}
+
 
 /* Ajusting About Me Card to be responsive with different devices */
 
@@ -156,4 +160,8 @@ body h5 {
 
 #skills h3 {
     margin: 5px;
+}
+
+#footer {
+    background-color: #02b3e4;
 }
